@@ -1,4 +1,4 @@
-# AI Campus Route Navigator — Assignment X_03
+# AI Campus Route Navigator — Assignment 03
 
 An object-oriented campus route planner comparing **PATHFINDER** (Greedy Best-First Search) and **ORBIT** (A* Search).
 
