@@ -1,0 +1,41 @@
+{
+  "units": "approximate walking metres",
+  "locations": [
+    "Entry Gate 1", "Reception", "Auditorium Hall", "Canteen", "Power Area",
+    "Parking Area", "Tower 2 Front Entry", "Tower 2 Rear Entry", "Lift Area",
+    "CSE Laboratory", "CSE_AKC Seminar Hall", "CSE_Reflxon Room", "Garden Area",
+    "Technology Campus", "Library", "New Building 1", "New Building 2", "Entry Gate 2"
+  ],
+  "edges": [
+    ["Entry Gate 1", "Reception", 45],
+    ["Entry Gate 1", "Power Area", 38],
+    ["Reception", "Auditorium Hall", 55],
+    ["Reception", "Canteen", 70],
+    ["Reception", "Power Area", 42],
+    ["Auditorium Hall", "Canteen", 48],
+    ["Auditorium Hall", "Technology Campus", 62],
+    ["Canteen", "Technology Campus", 44],
+    ["Power Area", "Parking Area", 35],
+    ["Parking Area", "Tower 2 Front Entry", 58],
+    ["Tower 2 Front Entry", "Tower 2 Rear Entry", 32],
+    ["Tower 2 Front Entry", "Lift Area", 12],
+    ["Tower 2 Rear Entry", "Lift Area", 16],
+    ["Lift Area", "CSE Laboratory", 18],
+    ["Lift Area", "CSE_AKC Seminar Hall", 24],
+    ["Lift Area", "CSE_Reflxon Room", 21],
+    ["CSE Laboratory", "CSE_AKC Seminar Hall", 20],
+    ["CSE Laboratory", "CSE_Reflxon Room", 15],
+    ["CSE_AKC Seminar Hall", "CSE_Reflxon Room", 17],
+    ["Lift Area", "Garden Area", 52],
+    ["Garden Area", "Technology Campus", 28],
+    ["Garden Area", "Library", 46],
+    ["Technology Campus", "Library", 39],
+    ["Technology Campus", "New Building 1", 55],
+    ["New Building 1", "New Building 2", 34],
+    ["New Building 1", "Entry Gate 2", 48],
+    ["New Building 2", "Entry Gate 2", 42],
+    ["Library", "New Building 2", 63],
+    ["Canteen", "Library", 75],
+    ["Auditorium Hall", "Garden Area", 57]
+  ]
+}

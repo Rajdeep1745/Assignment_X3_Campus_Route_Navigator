@@ -1,0 +1,17 @@
+start,destination,agent,path,cost_m,nodes_explored,execution_seconds
+Reception,Library,PATHFINDER,Reception -> Canteen -> Library,145,3,0.00023140
+Reception,Library,ORBIT,Reception -> Canteen -> Library,145,3,0.00020080
+Canteen,New Building 2,PATHFINDER,Canteen -> Library -> New Building 2,138,3,0.00015370
+Canteen,New Building 2,ORBIT,Canteen -> Technology Campus -> New Building 1 -> New Building 2,133,4,0.00020070
+Entry Gate 1,CSE Laboratory,PATHFINDER,Entry Gate 1 -> Power Area -> Parking Area -> Tower 2 Front Entry -> Lift Area -> CSE Laboratory,161,6,0.00029140
+Entry Gate 1,CSE Laboratory,ORBIT,Entry Gate 1 -> Power Area -> Parking Area -> Tower 2 Front Entry -> Lift Area -> CSE Laboratory,161,6,0.00028400
+Auditorium Hall,CSE_AKC Seminar Hall,PATHFINDER,Auditorium Hall -> Garden Area -> Lift Area -> Tower 2 Front Entry -> Lift Area -> CSE_AKC Seminar Hall,157,6,0.00035210
+Auditorium Hall,CSE_AKC Seminar Hall,ORBIT,Auditorium Hall -> Garden Area -> Lift Area -> Tower 2 Front Entry -> Lift Area -> CSE_AKC Seminar Hall,157,6,0.00032490
+Library,Canteen,PATHFINDER,Library -> Canteen,75,2,0.00007380
+Library,Canteen,ORBIT,Library -> Canteen,75,2,0.00007070
+CSE_Reflxon Room,Entry Gate 2,PATHFINDER,CSE_Reflxon Room -> Lift Area -> Tower 2 Front Entry -> Parking Area -> Power Area -> Reception -> Canteen -> Technology Campus -> New Building 1 -> Entry Gate 2,385,24,0.00087550
+CSE_Reflxon Room,Entry Gate 2,ORBIT,CSE_Reflxon Room -> Lift Area -> Tower 2 Front Entry -> Parking Area -> Power Area -> Reception -> Canteen -> Technology Campus -> New Building 1 -> Entry Gate 2,385,24,0.00088440
+Parking Area,New Building 1,PATHFINDER,Parking Area -> Power Area -> Reception -> Canteen -> Technology Campus -> New Building 1,246,16,0.00071470
+Parking Area,New Building 1,ORBIT,Parking Area -> Power Area -> Reception -> Canteen -> Technology Campus -> New Building 1,246,12,0.00059260
+Entry Gate 2,CSE_AKC Seminar Hall,PATHFINDER,Entry Gate 2 -> New Building 1 -> Technology Campus -> Garden Area -> Lift Area -> Tower 2 Front Entry -> Lift Area -> CSE_AKC Seminar Hall,231,8,0.00048830
+Entry Gate 2,CSE_AKC Seminar Hall,ORBIT,Entry Gate 2 -> New Building 1 -> Technology Campus -> Garden Area -> Lift Area -> Tower 2 Front Entry -> Lift Area -> CSE_AKC Seminar Hall,231,11,0.00067800

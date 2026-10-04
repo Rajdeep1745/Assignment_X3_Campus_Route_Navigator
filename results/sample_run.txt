@@ -1,0 +1,17 @@
+Saved 16 agent-runs to results/results.csv
+Reception -> Library: PATHFINDER, 145 m, 3 nodes
+Reception -> Library: ORBIT, 145 m, 3 nodes
+Canteen -> New Building 2: PATHFINDER, 138 m, 3 nodes
+Canteen -> New Building 2: ORBIT, 133 m, 4 nodes
+Entry Gate 1 -> CSE Laboratory: PATHFINDER, 161 m, 6 nodes
+Entry Gate 1 -> CSE Laboratory: ORBIT, 161 m, 6 nodes
+Auditorium Hall -> CSE_AKC Seminar Hall: PATHFINDER, 157 m, 6 nodes
+Auditorium Hall -> CSE_AKC Seminar Hall: ORBIT, 157 m, 6 nodes
+Library -> Canteen: PATHFINDER, 75 m, 2 nodes
+Library -> Canteen: ORBIT, 75 m, 2 nodes
+CSE_Reflxon Room -> Entry Gate 2: PATHFINDER, 385 m, 24 nodes
+CSE_Reflxon Room -> Entry Gate 2: ORBIT, 385 m, 24 nodes
+Parking Area -> New Building 1: PATHFINDER, 246 m, 16 nodes
+Parking Area -> New Building 1: ORBIT, 246 m, 12 nodes
+Entry Gate 2 -> CSE_AKC Seminar Hall: PATHFINDER, 231 m, 8 nodes
+Entry Gate 2 -> CSE_AKC Seminar Hall: ORBIT, 231 m, 11 nodes
